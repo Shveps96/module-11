@@ -1,0 +1,6 @@
+.services {
+  @include flex_box ($flex: flex, $content: space-between);
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-top: 38px;
+}

@@ -1,0 +1,6 @@
+.header_top {
+  @include flex_box ($flex: flex, $content: space-between);
+  height: 60px;
+  align-items: center;
+  margin-bottom: 130px;
+}

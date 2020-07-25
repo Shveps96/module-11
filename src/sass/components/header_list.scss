@@ -1,0 +1,4 @@
+.header_list {
+  @include flex_box ($flex: flex, $content: space-between);
+  width: 40%;
+}

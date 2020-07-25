@@ -1,0 +1,22 @@
+.header_background_image {
+  @include banner("all");
+  background-image: linear-gradient(
+      0deg,
+      rgba(241, 218, 138, 1) 0%,
+      rgba(233, 130, 131, 0.9) 100%,
+      rgba(0, 212, 255, 0.1) 100%
+    ),
+    url(../images/banner.png);
+  height: 100vh;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .header_background_image {
+    background-image: linear-gradient(
+        0deg,
+        rgba(241, 218, 138, 1) 0%,
+        rgba(233, 130, 131, 0.9) 100%,
+        rgba(0, 212, 255, 0.1) 100%
+      ),
+      url(../images/banner@2x-min.png);
+  }
+}

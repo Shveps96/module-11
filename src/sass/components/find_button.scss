@@ -1,0 +1,14 @@
+.find_button {
+  @include font_seting($size: 14px, $height:16px, $text_color:#ffffff);
+  width: 160px;
+  height: 40px;
+  background: none;
+  border: 3px solid $primeri-white-color;
+  cursor: pointer;
+  font-family: $font-stack-monserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: block;
+  margin-top: 100px;
+}

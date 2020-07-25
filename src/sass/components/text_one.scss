@@ -1,0 +1,8 @@
+.text_one {
+  @include font_seting($size: 15px, $height:17px, $text_color:#999999);
+  font-family: $font-stack-roboto;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 92px;
+  text-align: center;
+}

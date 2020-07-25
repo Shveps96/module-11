@@ -1,0 +1,14 @@
+@mixin banner($path: "", $size: cover, $repeat: no-repeat, $pos: center top) {
+  background-size: $size;
+  background-repeat: $repeat;
+  background-position: $pos;
+}
+@mixin font_seting($size, $height, $text_color) {
+  font-size: $size;
+  line-height: $height;
+  color: $text_color;
+}
+@mixin flex_box($flex, $content) {
+  display: $flex;
+  justify-content: $content;
+}

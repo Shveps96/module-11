@@ -1,0 +1,24 @@
+.banner {
+    width: 70%;
+    margin: 0 auto;
+}
+.leading_one,
+.leading_two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner_text_creative {
+  @include font_seting($size: 72px, $height:78px, $text_color:#ffffff);
+  font-family: $font-stack-kaushan;
+  text-align: center;
+  margin-bottom: 66px;
+}
+.banner_text_welcome {
+  @include font_seting($size: 150px, $height:150px, $text_color:#ffffff);
+  font-family: $font-stack-monserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $primeri-white-color;
+  text-align: center;
+}

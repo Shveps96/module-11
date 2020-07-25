@@ -1,0 +1,31 @@
+.social__list {
+  position: absolute;
+  @include flex_box ($flex: flex, $content: space-between);
+  width: 227px;
+  top: 206px;
+  left: 78px;
+}
+.social__list__item__link_icon {
+  display: block;
+  width: 56px;
+  height: 56px;
+  fill: $designer-name-color-hover;
+  padding: 14px;
+  &:hover {
+    fill: $primeri-white-color;
+}
+}
+.social__list__item__link {
+  @include flex_box ($flex: flex, $content: center);
+  align-items: center;
+  text-decoration: none;
+  color: $primeri-white-color;
+  border: none;
+  background: $hover-text-color;
+  width: 56px;
+  height: 56px;
+  transition: background .2s linear;
+  &:hover{
+  background:$designer-name-color-hover;
+  }
+}

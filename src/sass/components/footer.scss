@@ -1,0 +1,25 @@
+.footer {
+  height: 62px;
+  @include flex_box ($flex: flex, $content: space-between);
+  border-top: 1px solid $border-color;
+  align-items: center;
+}
+.text_footer {
+  @include flex_box ($flex: flex, $content: space-between);
+  margin-right: 4px;
+  font-family: $font-stack-monserrat;
+  font-weight: 400;
+  @include font_seting($size: 15px, $height:17px, $text_color:#999999);
+}
+.designer__name {
+  font-family: $font-stack-monserrat;
+  text-decoration: none;
+  color: $designer-name-color;
+  transition: color .2s linear;
+  margin-right: auto;
+  display: flex;
+  &:hover,
+  &:focus {
+  color: $designer-name-color-hover;
+}
+}

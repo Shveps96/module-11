@@ -1,0 +1,13 @@
+.leading_two {
+  font-family: $font-stack-monserrat;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  &:after {
+  width: 60px;
+  background: $designer-name-color-hover;
+  height: 3px;
+  content: '';
+  margin: 38px auto;
+}
+}

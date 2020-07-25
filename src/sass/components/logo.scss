@@ -1,0 +1,11 @@
+.logo {
+    font-family: $font-stack-monserrat;
+    @include font_seting($size: 30px, $height:36px, $text_color:#ffffff);
+    font-weight: 700;
+    text-decoration: none;
+    &:hover,
+    &:focus
+    {
+    color: $hover-text-color;
+    }
+}
